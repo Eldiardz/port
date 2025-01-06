@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<body class="body mx-auto">
-    <header class="col headofprot d-flex ">
+<body class="body col-sm-12 col-lg-12 mx-lg-auto mx-auto">
+    <header class="col-12 col-md-12 col-sm-12 headofprot d-flex flex-lg-row">
         <div class="col-4 h-100 d-flex justify-content-center">
             <img src="salamander.png" class="" alt="">
         </div>
@@ -22,10 +22,11 @@
         </div>
     </header>
     <main class="mainofprot d-flex flex-column">
-        <div class="col-12 stage1 d-flex justify-content-center">
-            <div class="col-4 mt-4 d-flex mycard mx-auto overflow-hidden border border-3 border-black rounded-4 flex-column">
+        <div>
+            <div class="col-12 stage1 d-flex flex-md-column justify-content-center">
+            <div class="col-4 col-md-8 col-sm-8 col-xl-4 mt-4 d-flex mycard mx-auto overflow-hidden border border-3 border-black rounded-4 flex-column">
                 <div class="col-12 pictureblock mt-2 d-flex justify-content-center">
-                    <img src="mypicture.jpg" class="rounded-circle w-25" alt="">
+                    <img src="mypicture.jpg" class="rounded-circle col-3 col-lg-2 col-xl-3 col-md-2" alt="">
                 </div>
                 <div class="col-12 mydesc d-flex align-items-center flex-column text-center">
                     <h3 class="textdesc fw-bold">The Emperor protects!</h3>
@@ -40,12 +41,14 @@
             </div>
         </div>
         <div class="col-12 stage3 d-flex justify-content-center">
-            <div class="col-4 h-100 mycard d-flex mx-auto border border-3 border-black rounded-4 justify-content-center align-items-center">
+            <div class="col-4 col-md-8 col-sm-8 col-xl-4 h-100 mycard d-flex mx-auto border border-3 border-black rounded-4 justify-content-center align-items-center">
                 <h1 class="textdesc">Примеры работ</h1>
             </div>
         </div>
-        <div class="col-12 stage1 mt-5 d-flex justify-content-around">
-            <div class="col-4 h-100 mycard1 overflow-hidden rounded-4 border border-3 d-flex border-black flex-column">
+        </div>
+        
+        <div class="col-12 stage1 mt-5 gap-3 flex-md-column flex-sm-column flex-xl-row d-flex align-items-md-center align-items-sm-center justify-content-xl-around">
+            <div class="col-4 col-xl-4 col-md-8 h-100 h-50-md h-50-sm mycard1  overflow-hidden rounded-4 border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="drg.png" width="100%" alt="">
                 </div>
@@ -55,7 +58,7 @@
                 </div>
             </div>
             
-            <div class="col-4 h-100 mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+            <div class="col-4 col-xl-4 col-md-8 h-100-lg h-50-sm h-50-md mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="blizzard.jpg" width="100%" alt="">
                 </div>
@@ -65,8 +68,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 stage1 mt-5 d-flex justify-content-around">
-            <div class="col-4 h-100 mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+        <div class="col-12 stage1 gap-3 flex-md-column flex-sm-column flex-xl-row align-items-md-center align-items-sm-center mt-5 d-flex justify-content-around">
+            <div class="col-4 col-xl-4 col-md-8 h-100-xl h-50-md h-50-sm mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="figma.jpg" width="100%" alt="">
                 </div>
@@ -75,7 +78,7 @@
                     <p class="fs-5 text"><em>Самое первое задание по фигме. Именно на нём впервые начал использовать векторную графику SVG</em></p>
                 </div>
             </div>
-            <div class="col-4 h-100 mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+            <div class="col-4 col-xl-4 col-md-8 h-100-xl h-50-md h-50-sm mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="billboard.jpg" width="100%" alt="">
                 </div>
@@ -85,8 +88,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 stage1 mt-5 d-flex justify-content-around">
-            <div class="col-4 h-100 mycard12 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+        <div class="col-12 stage1 mt-5 gap-3 flex-md-column flex-sm-column flex-xl-row d-flex align-items-md-center align-items-sm-center justify-content-xl-around">
+            <div class="col-4 col-xl-4 col-md-8 h-100-lg h-50-sm h-50-md mycard12 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="playstation.jpg" width="100%" alt="">
                 </div>
@@ -95,7 +98,7 @@
                     <p class="fs-5 text"><em>Задание где мой сайт впервые оказался живым! Именно там научился использовать оживительные штучки бутстрапа помимо hover</em></p>
                 </div>
             </div>
-            <div class="col-5 h-100 mycard1  rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+            <div class="col-5 col-xl-5 col-md-8 col-sm-8 h-100-xl h-100-xxl h-50-md h-50-sm mycard1 rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="youtube.jpg" width="100%" alt="">
                 </div>
@@ -105,8 +108,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 stage1 mt-5 d-flex justify-content-around">
-            <div class="col-6 h-100 mycard1  rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
+        <div class="col-12 stage13 mt-5 d-flex justify-content-around">
+            <div class="col-6 h-50-md mycard1  rounded-4 overflow-hidden border border-3 d-flex border-black flex-column">
                 <div class="col-12 d-flex bg-primary h-75">
                     <img src="twitter.jpg" width="100%" alt="">
                 </div>

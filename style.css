@@ -18,9 +18,16 @@
 .mainofprot{
     background-color: rgb(48, 92, 44);
 }
+.stage{
+    height: 32rem;
+}
 .stage1{
     height: 40rem;
 }
+.stage13{
+    height: 40rem;
+}
+
 .mycard{
     background-color: orangered;
     height: 32rem;
@@ -57,4 +64,16 @@
 .futa{
     height: 20rem;
     background-color: rgb(44, 133, 44);
+}
+@media (max-width: 1200px) {
+    .stage{
+        height: 32rem;
+    }
+    .stage1{
+        height: 80rem;
+    }
+    .mainofprot{
+        gap: 10rem;
+    }
+    
 }
